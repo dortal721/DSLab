@@ -1,9 +1,10 @@
-Welcome!
+### Welcome! ###
 
 This file is meant to guide you on how to use the Jupyter notebook in which
 our workflow is implemented.
 
-### Additional files required. ###
+### Additional files required. ### 
+*** 
 
 Since we integrated external data into our the provided data, our code requires
 some additional data files. The required files are:
@@ -22,6 +23,7 @@ units_try.csv - example .csv table, containing all the data in
 demonstrates an example of how the units data should be formatted.
 
 ### Submission files ### 
+***
 
 In the submission box, you should find the following files:
 
@@ -41,6 +43,7 @@ requirements.txt - requirements file
 
 
 ### User manual + important notes ### 
+***
 
 The code in the main notebook (project_190223.ipynb) allows you to provide
 it with train and test data sets, and should be able to process them smoothly.
