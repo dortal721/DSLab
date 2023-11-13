@@ -23,10 +23,6 @@ units_try.csv - example .csv table, containing all the data in
 'NWCG_UnitIDActive_20170109' (further details provided soon). This table
 demonstrates an example of how the units data should be formatted.
 
-Those files can be found in the following link:
-
-https://drive.google.com/drive/folders/1ZY3o190w7mjXHIr2n_QXgOj1iv4hnlqP?usp=sharing
-
 *************************************
 Submission files
 *************************************
