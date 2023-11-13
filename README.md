@@ -2,6 +2,9 @@
 
 This repository contains the work we did as part of the final project in the 'Applied competitive lab in Data Science' at HUJI. 
 
+The objective of this project is to predict the cause of a wildfire given other information regarding each incident. The data for this problem can be found in the '1.88 Million US Wildfires' challenge in Kaggle: 
+[https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires](url)
+
 This README file is meant to guide you on how to use the Jupyter notebook in which
 our workflow is implemented.
 
@@ -20,16 +23,7 @@ meteoStatTry.ipynb - Additional notebook, in which the process of fetching
 cause_stats.py - external .py script used for computing 'prior' values. (further
                 information can be found in the report)
 
-requirements.txt - environment requirements file
-
-### Data files required. ### 
-*** 
-
-Since we integrated external data into our the provided data, our code requires
-some additional data files. The required files are:
-
-met_data_clean.pkl - Pandas dataframe stored in a .pkl format, containing past
-                    measurements of weather data.
+requirements.txt - environment requirements file 
 
 stations_df_clean.pkl - Pandas dataframe stored in a .pkl format, containing
 the information of approximately 300 weather stations around the U.S.
@@ -40,6 +34,19 @@ in each state in the U.S.
 units_try.csv - example .csv table, containing all the data in
 'NWCG_UnitIDActive_20170109' (further details provided soon). This table
 demonstrates an example of how the units data should be formatted.
+
+### Data files required ### 
+*** 
+
+Since we integrated external data into our the provided data, our code requires
+some additional data files. The required files are:
+
+met_data_clean.pkl - Pandas dataframe stored in a .pkl format, containing past
+                    measurements of weather data. 
+
+FPA_FOD_20170508.sqlite - sqlite file containing some of the data that can be found in Kaggle. 
+
+Note: These files were too large to be uploaded to github, and therefore aren't included in this repository.
 
 ### User manual + important notes ### 
 ***
@@ -65,3 +72,9 @@ train and tests sets. Much like in the 'NWCG_UnitIDActive_20170109' table.
 
 4. The notebook code also allows you to choose whether to perform hyper-parameters
 optimization. Please see documentation within the notebook.
+
+### Performance ###
+*** 
+Here is a quick recap of our model's performance for the data: 
+
+![image](https://github.com/dortal721/DSLab/assets/129318571/f6212621-1962-49b4-8a10-7c877131da44)
