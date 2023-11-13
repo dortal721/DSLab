@@ -1,11 +1,10 @@
-Welcome!
+### Welcome! ###
 
 This file is meant to guide you on how to use the Jupyter notebook in which
 our workflow is implemented.
 
-*************************************
-Additional files required.
-*************************************
+### Additional files required. ### 
+*** 
 
 Since we integrated external data into our the provided data, our code requires
 some additional data files. The required files are:
@@ -23,13 +22,9 @@ units_try.csv - example .csv table, containing all the data in
 'NWCG_UnitIDActive_20170109' (further details provided soon). This table
 demonstrates an example of how the units data should be formatted.
 
-Those files can be found in the following link:
+### Submission files ### 
+***
 
-https://drive.google.com/drive/folders/1ZY3o190w7mjXHIr2n_QXgOj1iv4hnlqP?usp=sharing
-
-*************************************
-Submission files
-*************************************
 In the submission box, you should find the following files:
 
 project_190223.ipynb - The main notebook, in which the entire workflow is
@@ -46,9 +41,10 @@ README - this file
 
 requirements.txt - requirements file
 
-*************************************
-User manual + important notes
-*************************************
+
+### User manual + important notes ### 
+***
+
 The code in the main notebook (project_190223.ipynb) allows you to provide
 it with train and test data sets, and should be able to process them smoothly.
 
