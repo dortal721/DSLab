@@ -1,9 +1,28 @@
 ### Welcome! ###
 
-This file is meant to guide you on how to use the Jupyter notebook in which
+This repository contains the work we did as part of the final project in the 'Applied competitive lab in Data Science' at HUJI. 
+
+This README file is meant to guide you on how to use the Jupyter notebook in which
 our workflow is implemented.
 
-### Additional files required. ### 
+### Included files ### 
+***
+
+In this repository, you should find the following files:
+
+project_190223.ipynb - The main notebook, in which the entire workflow is
+                      implemented.
+
+meteoStatTry.ipynb - Additional notebook, in which the process of fetching
+                    the weather data is implemented. The code in this notebook
+                    is not required for running the main notebook
+
+cause_stats.py - external .py script used for computing 'prior' values. (further
+                information can be found in the report)
+
+requirements.txt - environment requirements file
+
+### Data files required. ### 
 *** 
 
 Since we integrated external data into our the provided data, our code requires
@@ -21,26 +40,6 @@ in each state in the U.S.
 units_try.csv - example .csv table, containing all the data in
 'NWCG_UnitIDActive_20170109' (further details provided soon). This table
 demonstrates an example of how the units data should be formatted.
-
-### Submission files ### 
-***
-
-In the submission box, you should find the following files:
-
-project_190223.ipynb - The main notebook, in which the entire workflow is
-                      implemented.
-
-meteoStatTry.ipynb - Additional notebook, in which the process of fetching
-                    the weather data is implemented. The code in this notebook
-                    is not required for running the main notebook
-
-cause_stats.py - external .py script used for computing 'prior' values. (further
-                information can be found in the report)
-
-README - this file
-
-requirements.txt - requirements file
-
 
 ### User manual + important notes ### 
 ***
